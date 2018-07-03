@@ -1,8 +1,36 @@
+.tt, .dgf, .dd, .era {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.era {
+  background-color: green;
+}
+
+.dd {
+  background-color: orange;
+}
+
+.dgf {
+  background-color: blue;
+}
+
+.tt {
+  background-color: black;
+}
+
 div {
-  font-size: 18px; }
-  div p {
-    color: blue; }
-  div ul {
-    color: green; }
+  font-size: 18px;
+}
+div p {
+  color: white;
+}
+div ul {
+  color: yellow;
+}
 
 /*# sourceMappingURL=nesting.css.map */

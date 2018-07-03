@@ -15,12 +15,17 @@ Your stylesheet(s) must use at least five different CSS properties, and at least
 >>
 
 Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
->>
+>> added @media query to hide the image and Tagline on the banner on small screen
 
 You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 >> Used for Navigations, Home Button and Grid Column to List the tools
 
 Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
->>
+>>Nesting and Inheritance - on Homepage - for formating the summary
 
 In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+>> Source of Information:
+Enterprise Reference Architecture : https://en.wikipedia.org/wiki/Reference_architecture
+Data Governence Framework: http://www.datagovernance.com/the-dgi-framework/
+Data Dictionary : http://www.bridging-the-gap.com/data-dictionary/
+Tools: https://www.gartner.com/reviews/customer-choice-awards/enterprise-architecture-tools

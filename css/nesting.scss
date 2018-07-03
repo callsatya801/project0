@@ -1,12 +1,42 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.era {
+    @extend %message;
+    background-color: green;
+}
+
+.dd {
+    @extend %message;
+    background-color: orange;
+}
+
+.dgf {
+    @extend %message;
+    background-color: blue;
+}
+
+.tt {
+    @extend %message;
+    background-color: black;
+}
+
 div {
     font-size: 18px;
 
     p {
-        color: blue;
+        color: white;
     }
 
     ul {
-        color: green;
+        color: yellow;
     }
 }
+
 

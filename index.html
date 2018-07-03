@@ -3,10 +3,12 @@
 
 <head>
     <title>Satya's Design Sutdio</title>
-     <meta content='width=device-width, initial-scale=1' name=viewport>
+    <meta content='width=device-width, initial-scale=1' name=viewport>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/nesting.css">
     <link rel="stylesheet" href="./css/banner.css">
+
 </head>
 
 <body>
@@ -20,17 +22,62 @@
         <p id="tagline"> "Enterprise Data Architecture is an Art"</p>
     </div>
 
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link active" href="./index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="era.html"> Enterprise Reference Architecture </a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="dgf.html"> Data Governance Framework </a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="dd.html"> Data Dictionary </a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="tt.html"> Tools and Technologies </a>
 
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link" href="era.html"> Enterprise Reference Architecture </a> </li>
-        <li class="nav-item">
-            <a class="nav-link" href="dgf.html"> Data Governance Framework </a> </li>
-        <li class="nav-item">
-            <a class="nav-link" href="dd.html"> Data Dictionary </a> </li>
-        <li class="nav-item">
-            <a class="nav-link" href="tt.html"> Tools and Technologies </a> </li>
-    </ul>
+    </nav>
+    <h1 id=Top> What and Why ? </h1>
+            <ul>
+            <li><a href="#era">Enterprise Reference Architecture</a></li>
+            <li><a href="#dgf"> Data Governance Framework</a></li>
+            <li><a href="#dd">Data Dictionary</a></li>
+            <li><a href="#tt">Tools and Technologies</a></li>
+        </ul>
+
+    <h2 id="era" class="subheader">Enterprise Reference Architecture</h2>
+    <div class="era">
+        <p>A reference architecture in the field of software architecture or enterprise architecture provides a template solution for an architecture for a particular domain. It also provides a common vocabulary with which to discuss implementations, often with the aim to stress commonality. A software reference architecture is a software architecture[1] where the structures and respective elements and relations provide templates for concrete architectures in a particular domain or in a family of software systems. </p>
+
+        <p>A reference architecture often consists of a list of functions and some indication of their interfaces (or APIs) and interactions with each other and with functions located outside of the scope of the reference architecture.</p>
+
+        <p>Reference architectures can be defined at different levels of abstraction. A highly abstract one might show different pieces of equipment on a communications network, each providing different functions. A lower level one might demonstrate the interactions of procedures (or methods) within a computer program defined to perform a very specific task.</p>
+
+        <p>A reference architecture provides a template, often based on the generalization of a set of solutions. These solutions may have been generalized and structured for the depiction of one or more architecture structures based on the harvesting of a set of patterns that have been observed in a number of successful implementations. Further it shows how to compose these parts together into a solution. Reference Architectures will be instantiated for a particular domain or for specific projects.</p>
+
+        <p>Adopting a reference architecture within an organization accelerates delivery through the re-use of an effective solution and provides a basis for governance to ensure the consistency and applicability of technology use within an organization. In the field of software architecture, many empirical studies have shown the following common benefits and drawbacks from adopting a software reference architecture within organizations: (a) improvement of the interoperability of the software systems by establishing a standard solution and common mechanisms for information exchange; (b) reduction of the development costs of software projects through the reuse of common assets; (c) improvement of the communication inside the organization because stakeholders share the same architectural mindset; and, (d) influencing the learning curve of developers due to the need of learning its features.</p>
+
+        Examples:
+        <ul>
+            <li>The Java Platform, Enterprise Edition (Java EE) architecture is a layered reference architecture which provides a template solution for many enterprise systems developed in Java.</li>
+            <li>The IBM Insurance Application Architecture[3] is a reference architecture for the Insurance domain.</li>
+            <li>AUTOSAR is a component-based reference architecture for automotive software architectures.</li>
+            <li>Eulynx is a reference architecture for railway signalling systems.</li>
+
+        </ul>
+    </div>
+    <h2 id="dgf" class="subheader">Data Governance Framework</h2>
+    <div class="dgf">
+ <p>All organizations need to be able to make decisions about how to manage data, realize value from it, minimize cost and complexity, manage risk, and ensure compliance with ever-growing legal, regulatory, and other requirements. Management and staff need to make good decisions – decisions that stick. They need to reach consensus on how to “decide how to decide.” They need to create rules, ensure that the rules are being followed, and to deal with noncompliance, ambiguities, and issues.</p>
+
+<p>In short, they need to do more than manage data; they need a governance system that sets the rules of engagement for management activities. Small organizations, or ones with simple data environments, may be able to succeed in these goals through an informal system of governance. They may not even be aware of when they are switching between making management decisions and broader governance decisions. On the other hand, larger organizations, or ones with more complex data or compliance environments, generally find that they need to step back and agree upon a more formal system of governance. The DGI Data Governance Framework is designed to assist these organizations.</p>
+</div>
+
+    <h2 id="dd" class="subheader">Data Dictionary</h2>
+    <div class="dd">
+ <p>A Data Dictionary, also called a Data Definition Matrix, provides detailed information about the business data, such as standard definitions of data elements, their meanings, and allowable values. While a conceptual or logical Entity Relationship Diagram will focus on the high-level business concepts, a Data Dictionary will provide more detail about each attribute of a business concept.</p>
+
+<p>In short, they need to do more than manage data; they need a governance system that sets the rules of engagement for management activities. Small organizations, or ones with simple data environments, may be able to succeed in these goals through an informal system of governance. They may not even be aware of when they are switching between making management decisions and broader governance decisions. On the other hand, larger organizations, or ones with more complex data or compliance environments, generally find that they need to step back and agree upon a more formal system of governance. The DGI Data Governance Framework is designed to assist these organizations.</p>
+</div>
+
+    <h2 id="tt" class="subheader">Tools and Technologies</h2>
+    <div class="tt">
+
+    <p>Enterprise architecture tools capture, store, structure and analyze information pertaining to enterprise architecture and present the information to enterprise stakeholders. These tools provide support for strategic decision making by capturing vital enterprise context, along with content development and analysis capabilities across the business, information, technology and solution architectures.</p>
+</div>
 
 </body>
 

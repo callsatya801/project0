@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,GAAI;EACA,SAAS,EAAE,IAAI;EAEf,KAAE;IACE,KAAK,EAAE,IAAI;EAGf,MAAG;IACC,KAAK,EAAE,KAAK",
-"sources": ["nesting.scss"],
-"names": [],
-"file": "nesting.css"
-}
+{"version":3,"sourceRoot":"","sources":["nesting.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EAEI;;;AAGJ;EAEI;;;AAGJ;EAEI;;;AAGJ;EAEI;;;AAGJ;EACI;;AAEA;EACI;;AAGJ;EACI","file":"nesting.css"}
