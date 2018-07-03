@@ -12,7 +12,7 @@ Your website must have at least one stylesheet file.
 >> banner.css - to format Banner.
 
 Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
->>
+>> Used accross all Html
 
 Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 >> added @media query to hide the image and Tagline on the banner on small screen
